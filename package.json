@@ -1,0 +1,39 @@
+{
+    "name": "@ivoyant/component-input-form",
+    "version": "1.0.23",
+    "main": "dist/index.js",
+    "title": "Input Form",
+    "description": "",
+    "icon": "icon.png",
+    "private": true,
+    "scripts": {
+        "start": "ist s",
+        "build": "ist b",
+        "storybook": "ist st",
+        "prepublish": "ist b -u"
+    },
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "Maxim Kotelnikov <mail@maximkotelnikov.me>",
+    "license": "MIT",
+    "peerDependencies": {
+        "react": "^18.2.0"
+    },
+    "dependencies": {
+        "@ivoyant/component-template": "^1.0.0",
+        "crypto-js": "4.1.1",
+        "dayjs": "^1.7.7",
+        "lodash": "4.17.21",
+        "lodash.get": "^4.4.2",
+        "lodash.groupby": "^4.6.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-number-format": "^3.6.2",
+        "squirrelly": "^7.9.2"
+    },
+    "devDependencies": {
+        "@ivoyant/cli": "^1.1.2"
+    }
+}
